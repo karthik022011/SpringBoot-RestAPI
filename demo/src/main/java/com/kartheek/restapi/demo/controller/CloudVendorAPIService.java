@@ -5,7 +5,7 @@ import com.kartheek.restapi.demo.model.CloudVendor;
 import org.springframework.web.bind.annotation.*;
 
 @RestController//spring boot will know that this is controller
-@RequestMapping("/cloudvendor")
+@RequestMapping("/cloudvendor")//all request mapping should start with /cloudvendor
 public class CloudVendorAPIService {
 
     CloudVendor cloudVendor;
